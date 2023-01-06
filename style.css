@@ -44,6 +44,8 @@ header{
     height: 800px;
     text-align: right;
     background-repeat: no-repeat;
+    background-position: contain;
+    width: auto;
 }
 header{
     padding: 200px 120px 0 0 ;
@@ -98,6 +100,7 @@ i{
 }
 .watch{
     margin-top: 150px;
+    padding: 80px 0 0 50px;
 }
 .plans h2{
     margin-bottom: 10px;
@@ -106,25 +109,24 @@ i{
     background-color: white;
     color:#F15B22;
 }
-.watch{
-    padding: 80px 0 0 50px;
-}
 
 
 /* box portion */
 /* flexthree started */
 .flexthree{
     display: flex;
-    gap: 40px;
     align-items: center;
+    justify-content: space-around;
 }
 .box i{
     color:#F15B22;
 }
 .flexthree .box{
+    height: 250px;
+    width: 250px;
     background-color: azure;
     padding: 20px 40px;
-    text-align: center;
+    text-align: justify;
 }
 .flexthree .box{
     box-shadow: 10px 10px 25px;
