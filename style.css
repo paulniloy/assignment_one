@@ -81,3 +81,13 @@ header{
 .watch{
     margin-top: 150px;
 }
+.plans h2{
+    margin-bottom: 10px;
+}
+.watch .btn{
+    background-color: white;
+    color:#F15B22;
+}
+.watch{
+    padding: 80px 0 0 50px;
+}
