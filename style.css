@@ -93,9 +93,8 @@ i{
     background-image: url("images/gradient3.png"), url("images/watch.png");
     background-blend-mode: normal;
     height: 400px;
-    width: auto;
     background-repeat: no-repeat;
-    background-position: cover;
+    background-position: contain;
 }
 .watch{
     margin-top: 150px;
