@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* most frequent used tags */
+.topgap{
+    margin-top: 100px;
+}
+.bottomgap{
+    margin-bottom: 20px;
+}
+.bold{
+    font-size: 70px;
+}
+.tsmall{
+    font-size: 14px;
+    line-height: 1.8;
+}
+.center{
+    margin: 0 170px;
+}
+.textb{
+    color: black;
+}
+.textw{
+    color: white;
+}
+.btn{
+    border: none;
+    background: #F15B22;
+    padding: 20px 30px;
+}
+header{
+    background-image: url("images/banner/banner1.png");
+    height: 800px;
+    text-align: right;
+    background-repeat: no-repeat;
+}
+header{
+    padding: 200px 120px 0 0 ;
+}
+.flexone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.flexone ul > li{
+    list-style: none;
+    padding-bottom: 10px;
+    position: relative;
+    left: -40px;
+}
+.size45{
+    font-size: 45px;
+}
+.parttwo h1{
+    text-align: center;
+}
+.flextwo{
+    display: flex;
+    justify-content: space-around
+}
+.plans{
+    text-align: center;
+}
+.plans img{
+    margin-bottom: 15px;
+}
+.parttwo h1{
+    margin-bottom: 60px;
+}
+.bg{
+    background-image: url("images/gradient3.png"), url("images/watch.png");
+    background-blend-mode: normal;
+    height: 200px;
+    width: auto;
+    background-repeat: no-repeat;
+}
+.watch{
+    margin-top: 150px;
+}
