@@ -95,6 +95,7 @@ i{
     height: 200px;
     width: auto;
     background-repeat: no-repeat;
+    background-position: cover;
 }
 .watch{
     margin-top: 150px;
@@ -117,13 +118,14 @@ i{
     margin-top: 80px;
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 .box i{
     color:#F15B22;
 }
 .flexthree .box{
     background-color: azure;
-    padding: 20px 80px;
+    padding: 20px 40px;
     text-align: center;
 }
 .flexthree .box{
