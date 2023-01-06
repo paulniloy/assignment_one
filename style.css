@@ -91,17 +91,18 @@ i{
 .parttwo h1{
     margin-bottom: 60px;
 }
+/* Found out from internet the gradient option */
 .bg{
-    background-image: url("images/gradient3.png"), url("images/watch.png");
-    background-blend-mode: normal;
-    height: 400px;
+    background-image:linear-gradient(to right, rgb(0, 0, 0, 1 ), rgb(0, 0, 0, 0)), url("images/watch.png");
+    height: 300px;
     background-repeat: no-repeat;
-    background-position: contain;
+    background-position: cover;
 }
-.watch{
+.watch div{
     margin-top: 150px;
     padding: 80px 0 0 50px;
 }
+
 .plans h2{
     margin-bottom: 10px;
 }
@@ -111,6 +112,7 @@ i{
 }
 
 
+
 /* box portion */
 /* flexthree started */
 .flexthree{
@@ -118,8 +120,12 @@ i{
     align-items: center;
     justify-content: space-around;
 }
-.box i{
-    color:#F15B22;
+ul i{
+    color: goldenrod;
+}
+.box i {
+    color: #F15B22;
+    margin-bottom: 25px;
 }
 .flexthree .box{
     height: 250px;
