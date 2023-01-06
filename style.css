@@ -1,3 +1,4 @@
+/* applied to overall webpage */
 *{
     margin: 0;
     font-family:Arial, Helvetica, sans-serif;
@@ -30,7 +31,14 @@
     border: none;
     background: #F15B22;
     padding: 20px 30px;
+    font-weight: bold;
 }
+.btn:hover{
+    cursor: pointer;
+}
+
+
+/* header portion started */
 header{
     background-image: url("images/banner/banner1.png");
     height: 800px;
@@ -40,6 +48,9 @@ header{
 header{
     padding: 200px 120px 0 0 ;
 }
+
+
+/* flexone started */
 .flexone{
     display: flex;
     align-items: center;
@@ -52,12 +63,19 @@ header{
     position: relative;
     left: -40px;
 }
+i{
+    color: aquamarine;
+    margin-right: 5px;
+}
 .size45{
     font-size: 45px;
 }
 .parttwo h1{
     text-align: center;
 }
+
+
+/* flextwo started */
 .flextwo{
     display: flex;
     justify-content: space-around
@@ -90,4 +108,59 @@ header{
 }
 .watch{
     padding: 80px 0 0 50px;
+}
+
+
+/* box portion */
+/* flexthree started */
+.flexthree{
+    margin-top: 80px;
+    display: flex;
+    gap: 40px;
+}
+.box i{
+    color:#F15B22;
+}
+.flexthree .box{
+    background-color: azure;
+    padding: 20px 80px;
+    text-align: center;
+}
+.flexthree .box{
+    box-shadow: 10px 10px 25px;
+}
+
+
+/* footer portion stated */
+footer{
+    background: black;
+    height: 400px;
+}
+#icon{
+    display: flex;
+    gap: 10px;
+}
+
+
+/* flexfour started */
+.flexfour{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexfour h1{
+    padding: 80px 0 0 0;
+}
+
+
+/* footer portion started */
+footer input, .btn{
+    border-radius: 5px;
+}
+footer input{
+    padding: 10px 25px;
+}
+footer .btn{
+    background-color: azure;
+    color: #F15B22;
 }
